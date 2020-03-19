@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce181db1-2c1f-454e-b514-eb543565b6a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/cetc/springcloud/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/cetc/springcloud/service/DeptServiceFollBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/cetc/springcloud/service/DeptService_Feign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/classes/com/cetc/springcloud/entity/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/classes/com/cetc/springcloud/service/DeptServiceFollBackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/classes/com/cetc/springcloud/service/DeptServiceFollBackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/classes/com/cetc/springcloud/service/DeptService_Feign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/target/microservicecloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cetc/springcloud/DeptConsumer80_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cetc/springcloud/configbean/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cetc/springcloud/controller/DeptConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/cetc/springcloud/controller/DeptConsumerController_Feign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/META-INF/microservicecloud-consumer-dept-80.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cetc/springcloud/DeptConsumer80_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cetc/springcloud/configbean/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cetc/springcloud/controller/DeptConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/classes/com/cetc/springcloud/controller/DeptConsumerController_Feign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrixDashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrixDashboard/src/main/java/com/cetc/springcloud/MicroserviceConsumerHystrixDashboard_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrixDashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrixDashboard/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrixDashboard/target/classes/com/cetc/springcloud/MicroserviceConsumerHystrixDashboard_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/java/com/cetc/springcloud/DeptPrivider8001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/java/com/cetc/springcloud/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/java/com/cetc/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/java/com/cetc/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/java/com/cetc/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/java/com/cetc/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/com/cetc/springcloud/DeptPrivider8001_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/com/cetc/springcloud/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/com/cetc/springcloud/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/com/cetc/springcloud/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/com/cetc/springcloud/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/com/cetc/springcloud/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8001/target/classes/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/java/com/cetc/springcloud/MicroservicecloudPrividerDept8002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/java/com/cetc/springcloud/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/java/com/cetc/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/java/com/cetc/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/java/com/cetc/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/java/com/cetc/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/src/test/java/com/cetc/springcloud/MicroservicecloudPrividerDept8002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/com/cetc/springcloud/MicroservicecloudPrividerDept8002Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/com/cetc/springcloud/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/com/cetc/springcloud/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/com/cetc/springcloud/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/com/cetc/springcloud/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/com/cetc/springcloud/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/classes/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8002/target/test-classes/com/cetc/springcloud/MicroservicecloudPrividerDept8002ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/java/com/cetc/springcloud/MicroservicecloudPrividerDept8003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/java/com/cetc/springcloud/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/java/com/cetc/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/java/com/cetc/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/java/com/cetc/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/java/com/cetc/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-privider-dept-8003/src/test/java/com/cetc/springcloud/MicroservicecloudPrividerDept8003ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-zuul/src/main/java/com/cetc/springcloud/Zuul9002_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-zuul/target/classes/com/cetc/springcloud/Zuul9002_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/microservicecloud_eureka_7001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/src/main/java/com/cetc/springcloud/MicroservicecloudEureka7001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/target/classes/com/cetc/springcloud/MicroservicecloudEureka7001Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7001/target/test-classes/META-INF/microservicecloud_eureka_7001.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/microservicecloud_eureka_7002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/src/main/java/com/cetc/springcloud/MicroservicecloudEureka7002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/src/test/java/com/cetc/springcloud/MicroservicecloudEureka7002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/target/classes/com/cetc/springcloud/MicroservicecloudEureka7002Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7002/target/test-classes/com/cetc/springcloud/MicroservicecloudEureka7002ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/src/main/java/com/cetc/springcloud/MicroservicecloudEureka7003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/src/test/java/com/cetc/springcloud/MicroservicecloudEureka7003ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/target/classes/com/cetc/springcloud/MicroservicecloudEureka7003Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_eureka_7003/target/test-classes/com/cetc/springcloud/MicroservicecloudEureka7003ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/java/com/cetc/springcloud/DeptPrividerHystrix8004_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/java/com/cetc/springcloud/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/java/com/cetc/springcloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/java/com/cetc/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/java/com/cetc/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/java/com/cetc/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/META-INF/microservicecloud_sprivider_Hystrix_8004.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/com/cetc/springcloud/DeptPrividerHystrix8004_App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/com/cetc/springcloud/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/com/cetc/springcloud/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/com/cetc/springcloud/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/com/cetc/springcloud/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/com/cetc/springcloud/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud_sprivider_Hystrix_8004/target/classes/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/maven/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\tools\maven\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZFx7A4MgQTw2pt31nBgDqGl4CK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cetc.springcloud" />
+      <recent name="com.cetc.springcloud.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zxwork\microservicecloud\microservicecloud-zuul\src\main\resources" />
+      <recent name="D:\zxwork\microservicecloud\microservicecloud_sprivider_Hystrix_8004\src\main\java\com\cetc\springcloud" />
+      <recent name="D:\zxwork\microservicecloud\microservicecloud_sprivider_Hystrix_8004\src\main\resources" />
+      <recent name="D:\zxwork\microservicecloud\microservicecloud_sprivider_Hystrix_8004\src\main\java" />
+      <recent name="D:\zxwork\microservicecloud\microservicecloud_privder_hystrix_8004\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MicroservicecloudPrividerDept8002Application">
+    <configuration name="DeptConsumer80_App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cetc.springcloud.DeptConsumer80_App" />
+      <module name="microservicecloud-consumer-dept-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cetc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptPrivider8001_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cetc.springcloud.DeptPrivider8001_App" />
+      <module name="microservicecloud-privider-dept-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cetc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceConsumerHystrixDashboard_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cetc.springcloud.MicroserviceConsumerHystrixDashboard_App" />
+      <module name="microservicecloud-consumer-hystrixDashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cetc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicecloudEureka7001Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cetc.springcloud.MicroservicecloudEureka7001Application" />
+      <module name="microservicecloud_eureka_7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cetc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicecloudPrividerDept8002Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cetc.springcloud.MicroservicecloudPrividerDept8002Application" />
+      <module name="microservicecloud-privider-dept-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cetc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zuul9002_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cetc.springcloud.Zuul9002_App" />
+      <module name="microservicecloud-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cetc.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MicroservicecloudPrividerDept8002Application" />
+        <item itemvalue="Application.Zuul9002_App" />
+        <item itemvalue="Application.DeptPrivider8001_App" />
+        <item itemvalue="Application.MicroservicecloudEureka7001Application" />
+        <item itemvalue="Application.MicroserviceConsumerHystrixDashboard_App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="307" y="0" key="#MicroservicecloudPrivderHystrix8004Application" timestamp="1584584571981">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="307" y="0" key="#MicroservicecloudPrivderHystrix8004Application/0.0.1280.680@0.0.1280.680" timestamp="1584584571981" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1584584042656">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584584042656" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584606178192">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584606178192" />
+    <state width="1202" height="321" key="GridCell.Tab.0.bottom" timestamp="1584604033442">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584604033442" />
+    <state width="1202" height="321" key="GridCell.Tab.0.center" timestamp="1584604033441">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584604033441" />
+    <state width="1202" height="321" key="GridCell.Tab.0.left" timestamp="1584604033441">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584604033441" />
+    <state width="1202" height="321" key="GridCell.Tab.0.right" timestamp="1584604033442">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584604033442" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1584603163799">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584603163799" />
+    <state x="110" y="120" width="1060" height="440" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584605777555">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="110" y="120" width="1060" height="440" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1584605777555" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584583967572">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584583967572" />
+    <state x="299" y="36" key="new project wizard" timestamp="1584603509191">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="299" y="36" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584603509191" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584527563191">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584527563191" />
+  </component>
+</project>

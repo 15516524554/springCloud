@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicecloud-consumer-hystrixDashboard" />
+        <module name="microservicecloud-zuul" />
+        <module name="microservicecloud-privider-dept-8003" />
+        <module name="microservicecloud-privider-dept-8002" />
+        <module name="microservicecloud-privider-dept-8001" />
+        <module name="microservicecloud_sprivider_Hystrix_8004" />
+        <module name="microservicecloud-api" />
+        <module name="microservicecloud_eureka_7003" />
+        <module name="microservicecloud_eureka_7002" />
+        <module name="microservicecloud_eureka_7001" />
+        <module name="microservicecloud-consumer-dept-80" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicecloud_privder_hystrix_8004" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservicecloud-privider-dept-8002" options="" />
+      <module name="microservicecloud-privider-dept-8003" options="" />
+      <module name="microservicecloud_eureka_7001" options="" />
+      <module name="microservicecloud_eureka_7002" options="-parameters" />
+      <module name="microservicecloud_eureka_7003" options="-parameters" />
+      <module name="microservicecloud_privder_hystrix_8004" options="-parameters" />
+    </option>
+  </component>
+</project>

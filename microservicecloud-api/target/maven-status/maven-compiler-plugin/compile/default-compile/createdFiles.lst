@@ -1,0 +1,4 @@
+com\cetc\springcloud\service\DeptServiceFollBackFactory$1.class
+com\cetc\springcloud\service\DeptService_Feign.class
+com\cetc\springcloud\entity\Dept.class
+com\cetc\springcloud\service\DeptServiceFollBackFactory.class
